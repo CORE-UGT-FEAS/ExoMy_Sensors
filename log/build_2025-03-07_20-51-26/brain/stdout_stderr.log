@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating brain.egg-info
+writing brain.egg-info/PKG-INFO
+writing dependency_links to brain.egg-info/dependency_links.txt
+writing entry points to brain.egg-info/entry_points.txt
+writing requirements to brain.egg-info/requires.txt
+writing top-level names to brain.egg-info/top_level.txt
+writing manifest file 'brain.egg-info/SOURCES.txt'
+reading manifest file 'brain.egg-info/SOURCES.txt'
+writing manifest file 'brain.egg-info/SOURCES.txt'
+running build_ext
+Creating /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain.egg-link (link to .)
+
+Installed /ExoMy_Sensors/build/brain
+running symlink_data
+creating /ExoMy_Sensors/install/brain/share/ament_index
+creating /ExoMy_Sensors/install/brain/share/ament_index/resource_index
+creating /ExoMy_Sensors/install/brain/share/ament_index/resource_index/packages
+symbolically linking /ExoMy_Sensors/build/brain/resource/brain -> /ExoMy_Sensors/install/brain/share/ament_index/resource_index/packages
+symbolically linking /ExoMy_Sensors/build/brain/package.xml -> /ExoMy_Sensors/install/brain/share/brain

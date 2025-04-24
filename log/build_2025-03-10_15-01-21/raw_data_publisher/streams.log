@@ -1,0 +1,22 @@
+[6.892s] Invoking command in '/ExoMy_Sensors/raw_data_publisher': PYTHONPATH=/ExoMy_Sensors/build/raw_data_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/raw_data_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/raw_data_publisher build --build-base /ExoMy_Sensors/build/raw_data_publisher/build install --record /ExoMy_Sensors/build/raw_data_publisher/install.log --single-version-externally-managed install_data
+[7.754s] running egg_info
+[7.756s] writing ../build/raw_data_publisher/raw_data_publisher.egg-info/PKG-INFO
+[7.758s] writing dependency_links to ../build/raw_data_publisher/raw_data_publisher.egg-info/dependency_links.txt
+[7.761s] writing entry points to ../build/raw_data_publisher/raw_data_publisher.egg-info/entry_points.txt
+[7.762s] writing requirements to ../build/raw_data_publisher/raw_data_publisher.egg-info/requires.txt
+[7.762s] writing top-level names to ../build/raw_data_publisher/raw_data_publisher.egg-info/top_level.txt
+[7.769s] reading manifest file '../build/raw_data_publisher/raw_data_publisher.egg-info/SOURCES.txt'
+[7.774s] writing manifest file '../build/raw_data_publisher/raw_data_publisher.egg-info/SOURCES.txt'
+[7.775s] running build
+[7.775s] running build_py
+[7.782s] running install
+[7.783s] running install_lib
+[7.800s] running install_data
+[7.806s] running install_egg_info
+[7.818s] removing '/ExoMy_Sensors/install/raw_data_publisher/lib/python3.10/site-packages/raw_data_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[7.820s] Copying ../build/raw_data_publisher/raw_data_publisher.egg-info to /ExoMy_Sensors/install/raw_data_publisher/lib/python3.10/site-packages/raw_data_publisher-0.0.0-py3.10.egg-info
+[7.825s] running install_scripts
+[7.933s] Installing imu_publisher script to /ExoMy_Sensors/install/raw_data_publisher/lib/raw_data_publisher
+[7.944s] Installing tof_publisher script to /ExoMy_Sensors/install/raw_data_publisher/lib/raw_data_publisher
+[7.946s] writing list of installed files to '/ExoMy_Sensors/build/raw_data_publisher/install.log'
+[8.239s] Invoked command in '/ExoMy_Sensors/raw_data_publisher' returned '0': PYTHONPATH=/ExoMy_Sensors/build/raw_data_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/raw_data_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/raw_data_publisher build --build-base /ExoMy_Sensors/build/raw_data_publisher/build install --record /ExoMy_Sensors/build/raw_data_publisher/install.log --single-version-externally-managed install_data

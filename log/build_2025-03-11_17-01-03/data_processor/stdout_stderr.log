@@ -1,0 +1,20 @@
+running egg_info
+writing ../build/data_processor/data_processor.egg-info/PKG-INFO
+writing dependency_links to ../build/data_processor/data_processor.egg-info/dependency_links.txt
+writing entry points to ../build/data_processor/data_processor.egg-info/entry_points.txt
+writing requirements to ../build/data_processor/data_processor.egg-info/requires.txt
+writing top-level names to ../build/data_processor/data_processor.egg-info/top_level.txt
+reading manifest file '../build/data_processor/data_processor.egg-info/SOURCES.txt'
+writing manifest file '../build/data_processor/data_processor.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages/data_processor-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/data_processor/data_processor.egg-info to /ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages/data_processor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_data_processor script to /ExoMy_Sensors/install/data_processor/lib/data_processor
+Installing tof_data_processor script to /ExoMy_Sensors/install/data_processor/lib/data_processor
+writing list of installed files to '/ExoMy_Sensors/build/data_processor/install.log'

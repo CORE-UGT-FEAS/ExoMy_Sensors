@@ -1,0 +1,34 @@
+[5.198s] Invoking command in '/ExoMy_Sensors/build/data_processor': PYTHONPATH=/ExoMy_Sensors/build/data_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ExoMy_Sensors/build/data_processor/build
+[7.093s] running develop
+[8.054s] Removing /ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages/data-processor.egg-link (link to .)
+[8.394s] Invoked command in '/ExoMy_Sensors/build/data_processor' returned '0': PYTHONPATH=/ExoMy_Sensors/build/data_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ExoMy_Sensors/build/data_processor/build
+[8.398s] Invoking command in '/ExoMy_Sensors/data_processor': PYTHONPATH=/ExoMy_Sensors/build/data_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/data_processor build --build-base /ExoMy_Sensors/build/data_processor/build install --record /ExoMy_Sensors/build/data_processor/install.log --single-version-externally-managed install_data --force
+[10.297s] running egg_info
+[10.304s] writing ../build/data_processor/data_processor.egg-info/PKG-INFO
+[10.318s] writing dependency_links to ../build/data_processor/data_processor.egg-info/dependency_links.txt
+[10.319s] writing entry points to ../build/data_processor/data_processor.egg-info/entry_points.txt
+[10.324s] writing requirements to ../build/data_processor/data_processor.egg-info/requires.txt
+[10.343s] writing top-level names to ../build/data_processor/data_processor.egg-info/top_level.txt
+[10.345s] reading manifest file '../build/data_processor/data_processor.egg-info/SOURCES.txt'
+[10.345s] writing manifest file '../build/data_processor/data_processor.egg-info/SOURCES.txt'
+[10.345s] running build
+[10.345s] running build_py
+[10.346s] creating /ExoMy_Sensors/build/data_processor/build
+[10.346s] creating /ExoMy_Sensors/build/data_processor/build/lib
+[10.365s] creating /ExoMy_Sensors/build/data_processor/build/lib/data_processor
+[10.375s] copying data_processor/__init__.py -> /ExoMy_Sensors/build/data_processor/build/lib/data_processor
+[10.380s] running install
+[10.380s] running install_lib
+[10.380s] creating /ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages/data_processor
+[10.381s] copying /ExoMy_Sensors/build/data_processor/build/lib/data_processor/__init__.py -> /ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages/data_processor
+[10.393s] byte-compiling /ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages/data_processor/__init__.py to __init__.cpython-310.pyc
+[10.394s] running install_data
+[10.408s] copying resource/data_processor -> /ExoMy_Sensors/install/data_processor/share/ament_index/resource_index/packages
+[10.410s] copying package.xml -> /ExoMy_Sensors/install/data_processor/share/data_processor
+[10.411s] running install_egg_info
+[10.411s] Copying ../build/data_processor/data_processor.egg-info to /ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages/data_processor-0.0.0-py3.10.egg-info
+[10.444s] running install_scripts
+[10.533s] Installing imu_data_processor script to /ExoMy_Sensors/install/data_processor/lib/data_processor
+[10.536s] Installing tof_data_processor script to /ExoMy_Sensors/install/data_processor/lib/data_processor
+[10.538s] writing list of installed files to '/ExoMy_Sensors/build/data_processor/install.log'
+[10.691s] Invoked command in '/ExoMy_Sensors/data_processor' returned '0': PYTHONPATH=/ExoMy_Sensors/build/data_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/data_processor build --build-base /ExoMy_Sensors/build/data_processor/build install --record /ExoMy_Sensors/build/data_processor/install.log --single-version-externally-managed install_data --force

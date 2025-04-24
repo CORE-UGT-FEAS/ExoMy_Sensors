@@ -1,0 +1,214 @@
+[1.037s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.038s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fab906140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fab905bd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fab905bd0>>, mixin_verb=('build',))
+[2.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.132s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[2.135s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[2.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.136s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ExoMy_Sensors'
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(brain) by extensions ['ignore', 'ignore_ament_install']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(brain) by extension 'ignore'
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(brain) by extension 'ignore_ament_install'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(brain) by extensions ['colcon_pkg']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(brain) by extension 'colcon_pkg'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(brain) by extensions ['colcon_meta']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(brain) by extension 'colcon_meta'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(brain) by extensions ['ros']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(brain) by extension 'ros'
+[2.269s] DEBUG:colcon.colcon_core.package_identification:Package 'brain' with type 'ros.ament_python' and name 'brain'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(data_processor) by extensions ['ignore', 'ignore_ament_install']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(data_processor) by extension 'ignore'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(data_processor) by extension 'ignore_ament_install'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(data_processor) by extensions ['colcon_pkg']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(data_processor) by extension 'colcon_pkg'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(data_processor) by extensions ['colcon_meta']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(data_processor) by extension 'colcon_meta'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(data_processor) by extensions ['ros']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(data_processor) by extension 'ros'
+[2.291s] DEBUG:colcon.colcon_core.package_identification:Package 'data_processor' with type 'ros.ament_python' and name 'data_processor'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(raw_data_publisher) by extensions ['ignore', 'ignore_ament_install']
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(raw_data_publisher) by extension 'ignore'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(raw_data_publisher) by extension 'ignore_ament_install'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(raw_data_publisher) by extensions ['colcon_pkg']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(raw_data_publisher) by extension 'colcon_pkg'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(raw_data_publisher) by extensions ['colcon_meta']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(raw_data_publisher) by extension 'colcon_meta'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(raw_data_publisher) by extensions ['ros']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(raw_data_publisher) by extension 'ros'
+[2.315s] DEBUG:colcon.colcon_core.package_identification:Package 'raw_data_publisher' with type 'ros.ament_python' and name 'raw_data_publisher'
+[2.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.506s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_args' from command line to 'None'
+[2.506s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_target' from command line to 'None'
+[2.507s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.507s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_clean_cache' from command line to 'False'
+[2.508s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_clean_first' from command line to 'False'
+[2.509s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_force_configure' from command line to 'False'
+[2.509s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'ament_cmake_args' from command line to 'None'
+[2.510s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'catkin_cmake_args' from command line to 'None'
+[2.510s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.511s] DEBUG:colcon.colcon_core.verb:Building package 'brain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ExoMy_Sensors/build/brain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ExoMy_Sensors/install/brain', 'merge_install': False, 'path': '/ExoMy_Sensors/brain', 'symlink_install': False, 'test_result_base': None}
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_args' from command line to 'None'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_target' from command line to 'None'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_clean_cache' from command line to 'False'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_clean_first' from command line to 'False'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_force_configure' from command line to 'False'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'ament_cmake_args' from command line to 'None'
+[2.514s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'catkin_cmake_args' from command line to 'None'
+[2.514s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.514s] DEBUG:colcon.colcon_core.verb:Building package 'data_processor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ExoMy_Sensors/build/data_processor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ExoMy_Sensors/install/data_processor', 'merge_install': False, 'path': '/ExoMy_Sensors/data_processor', 'symlink_install': False, 'test_result_base': None}
+[2.516s] Level 5:colcon.colcon_core.verb:set package 'raw_data_publisher' build argument 'cmake_args' from command line to 'None'
+[2.519s] Level 5:colcon.colcon_core.verb:set package 'raw_data_publisher' build argument 'cmake_target' from command line to 'None'
+[2.520s] Level 5:colcon.colcon_core.verb:set package 'raw_data_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.521s] Level 5:colcon.colcon_core.verb:set package 'raw_data_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[2.521s] Level 5:colcon.colcon_core.verb:set package 'raw_data_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[2.521s] Level 5:colcon.colcon_core.verb:set package 'raw_data_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[2.522s] Level 5:colcon.colcon_core.verb:set package 'raw_data_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[2.522s] Level 5:colcon.colcon_core.verb:set package 'raw_data_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[2.522s] Level 5:colcon.colcon_core.verb:set package 'raw_data_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.522s] DEBUG:colcon.colcon_core.verb:Building package 'raw_data_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ExoMy_Sensors/build/raw_data_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ExoMy_Sensors/install/raw_data_publisher', 'merge_install': False, 'path': '/ExoMy_Sensors/raw_data_publisher', 'symlink_install': False, 'test_result_base': None}
+[2.523s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.533s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.534s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ExoMy_Sensors/brain' with build type 'ament_python'
+[2.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('brain', 'ament_prefix_path')
+[2.576s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/brain/share/brain/hook/ament_prefix_path.ps1'
+[2.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ExoMy_Sensors/install/brain/share/brain/hook/ament_prefix_path.dsv'
+[2.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/brain/share/brain/hook/ament_prefix_path.sh'
+[2.610s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.611s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.667s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ExoMy_Sensors/data_processor' with build type 'ament_python'
+[2.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_processor', 'ament_prefix_path')
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/data_processor/share/data_processor/hook/ament_prefix_path.ps1'
+[2.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ExoMy_Sensors/install/data_processor/share/data_processor/hook/ament_prefix_path.dsv'
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/data_processor/share/data_processor/hook/ament_prefix_path.sh'
+[2.679s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.699s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ExoMy_Sensors/raw_data_publisher' with build type 'ament_python'
+[2.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('raw_data_publisher', 'ament_prefix_path')
+[2.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/raw_data_publisher/share/raw_data_publisher/hook/ament_prefix_path.ps1'
+[2.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ExoMy_Sensors/install/raw_data_publisher/share/raw_data_publisher/hook/ament_prefix_path.dsv'
+[2.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/raw_data_publisher/share/raw_data_publisher/hook/ament_prefix_path.sh'
+[2.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.546s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ExoMy_Sensors/brain'
+[3.547s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.329s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ExoMy_Sensors/data_processor'
+[4.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.169s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'raw_data_publisher' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[5.171s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'raw_data_publisher' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[5.173s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ExoMy_Sensors/raw_data_publisher'
+[5.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ExoMy_Sensors/brain': PYTHONPATH=/ExoMy_Sensors/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/brain build --build-base /ExoMy_Sensors/build/brain/build install --record /ExoMy_Sensors/build/brain/install.log --single-version-externally-managed install_data
+[7.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ExoMy_Sensors/raw_data_publisher': PYTHONPATH=/ExoMy_Sensors/build/raw_data_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/raw_data_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/raw_data_publisher build --build-base /ExoMy_Sensors/build/raw_data_publisher/build install --record /ExoMy_Sensors/build/raw_data_publisher/install.log --single-version-externally-managed install_data
+[8.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ExoMy_Sensors/data_processor': PYTHONPATH=/ExoMy_Sensors/build/data_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/data_processor build --build-base /ExoMy_Sensors/build/data_processor/build install --record /ExoMy_Sensors/build/data_processor/install.log --single-version-externally-managed install_data
+[9.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ExoMy_Sensors/raw_data_publisher' returned '0': PYTHONPATH=/ExoMy_Sensors/build/raw_data_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/raw_data_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/raw_data_publisher build --build-base /ExoMy_Sensors/build/raw_data_publisher/build install --record /ExoMy_Sensors/build/raw_data_publisher/install.log --single-version-externally-managed install_data
+[9.803s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/raw_data_publisher' for CMake module files
+[9.812s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/raw_data_publisher' for CMake config files
+[9.816s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/raw_data_publisher/lib'
+[9.818s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/raw_data_publisher/bin'
+[9.823s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/raw_data_publisher/lib/pkgconfig/raw_data_publisher.pc'
+[9.827s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/raw_data_publisher/lib/python3.10/site-packages'
+[9.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('raw_data_publisher', 'pythonpath')
+[9.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/raw_data_publisher/share/raw_data_publisher/hook/pythonpath.ps1'
+[9.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ExoMy_Sensors/install/raw_data_publisher/share/raw_data_publisher/hook/pythonpath.dsv'
+[9.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/raw_data_publisher/share/raw_data_publisher/hook/pythonpath.sh'
+[9.859s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/raw_data_publisher/bin'
+[9.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(raw_data_publisher)
+[9.865s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/raw_data_publisher/share/raw_data_publisher/package.ps1'
+[9.878s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ExoMy_Sensors/install/raw_data_publisher/share/raw_data_publisher/package.dsv'
+[9.891s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/raw_data_publisher/share/raw_data_publisher/package.sh'
+[9.900s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/raw_data_publisher/share/raw_data_publisher/package.bash'
+[9.912s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/raw_data_publisher/share/raw_data_publisher/package.zsh'
+[9.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ExoMy_Sensors/install/raw_data_publisher/share/colcon-core/packages/raw_data_publisher)
+[9.937s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/brain' for CMake module files
+[9.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ExoMy_Sensors/brain' returned '0': PYTHONPATH=/ExoMy_Sensors/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/brain build --build-base /ExoMy_Sensors/build/brain/build install --record /ExoMy_Sensors/build/brain/install.log --single-version-externally-managed install_data
+[9.948s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/brain' for CMake config files
+[9.954s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/brain/lib'
+[9.954s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/brain/bin'
+[9.954s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/brain/lib/pkgconfig/brain.pc'
+[9.959s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/brain/lib/python3.10/site-packages'
+[9.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('brain', 'pythonpath')
+[9.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/brain/share/brain/hook/pythonpath.ps1'
+[9.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ExoMy_Sensors/install/brain/share/brain/hook/pythonpath.dsv'
+[9.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/brain/share/brain/hook/pythonpath.sh'
+[9.980s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/brain/bin'
+[9.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(brain)
+[9.982s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/brain/share/brain/package.ps1'
+[9.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ExoMy_Sensors/install/brain/share/brain/package.dsv'
+[9.996s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/brain/share/brain/package.sh'
+[9.998s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/brain/share/brain/package.bash'
+[10.001s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/brain/share/brain/package.zsh'
+[10.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ExoMy_Sensors/install/brain/share/colcon-core/packages/brain)
+[10.189s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/data_processor' for CMake module files
+[10.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ExoMy_Sensors/data_processor' returned '0': PYTHONPATH=/ExoMy_Sensors/build/data_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/data_processor build --build-base /ExoMy_Sensors/build/data_processor/build install --record /ExoMy_Sensors/build/data_processor/install.log --single-version-externally-managed install_data
+[10.193s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/data_processor' for CMake config files
+[10.195s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/data_processor/lib'
+[10.196s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/data_processor/bin'
+[10.196s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/data_processor/lib/pkgconfig/data_processor.pc'
+[10.197s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages'
+[10.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_processor', 'pythonpath')
+[10.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/data_processor/share/data_processor/hook/pythonpath.ps1'
+[10.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ExoMy_Sensors/install/data_processor/share/data_processor/hook/pythonpath.dsv'
+[10.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/ExoMy_Sensors/install/data_processor/share/data_processor/hook/pythonpath.sh'
+[10.207s] Level 1:colcon.colcon_core.environment:checking '/ExoMy_Sensors/install/data_processor/bin'
+[10.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_processor)
+[10.209s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/data_processor/share/data_processor/package.ps1'
+[10.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ExoMy_Sensors/install/data_processor/share/data_processor/package.dsv'
+[10.213s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/data_processor/share/data_processor/package.sh'
+[10.216s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/data_processor/share/data_processor/package.bash'
+[10.223s] INFO:colcon.colcon_core.shell:Creating package script '/ExoMy_Sensors/install/data_processor/share/data_processor/package.zsh'
+[10.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ExoMy_Sensors/install/data_processor/share/colcon-core/packages/data_processor)
+[10.227s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.229s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.232s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.274s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.274s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.275s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.276s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[10.276s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.277s] INFO:colcon.colcon_core.shell:Creating prefix script '/ExoMy_Sensors/install/local_setup.ps1'
+[10.282s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ExoMy_Sensors/install/_local_setup_util_ps1.py'
+[10.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ExoMy_Sensors/install/setup.ps1'
+[10.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/ExoMy_Sensors/install/local_setup.sh'
+[10.302s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ExoMy_Sensors/install/_local_setup_util_sh.py'
+[10.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ExoMy_Sensors/install/setup.sh'
+[10.311s] INFO:colcon.colcon_core.shell:Creating prefix script '/ExoMy_Sensors/install/local_setup.bash'
+[10.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ExoMy_Sensors/install/setup.bash'
+[10.321s] INFO:colcon.colcon_core.shell:Creating prefix script '/ExoMy_Sensors/install/local_setup.zsh'
+[10.325s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ExoMy_Sensors/install/setup.zsh'

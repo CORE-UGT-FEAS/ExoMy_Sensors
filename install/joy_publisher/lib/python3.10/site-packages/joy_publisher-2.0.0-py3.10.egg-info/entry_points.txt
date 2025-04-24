@@ -1,0 +1,5 @@
+[console_scripts]
+distance_calculator = joy_publisher.distance_calculator:main
+joy_publisher = joy_publisher.joy_publisher:main
+position_calculator = joy_publisher.position_calculator:main
+

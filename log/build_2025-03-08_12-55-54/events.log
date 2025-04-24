@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.006807] (brain) JobQueued: {'identifier': 'brain', 'dependencies': OrderedDict()}
+[0.007145] (data_processor) JobQueued: {'identifier': 'data_processor', 'dependencies': OrderedDict()}
+[0.007268] (raw_data_publisher) JobQueued: {'identifier': 'raw_data_publisher', 'dependencies': OrderedDict()}
+[0.007338] (brain) JobStarted: {'identifier': 'brain'}
+[0.091426] (data_processor) JobStarted: {'identifier': 'data_processor'}
+[0.099535] (-) TimerEvent: {}
+[0.154284] (raw_data_publisher) JobStarted: {'identifier': 'raw_data_publisher'}
+[0.200052] (-) TimerEvent: {}
+[0.301412] (-) TimerEvent: {}
+[0.406710] (-) TimerEvent: {}
+[0.508269] (-) TimerEvent: {}
+[0.609547] (-) TimerEvent: {}
+[0.714732] (-) TimerEvent: {}
+[0.818656] (-) TimerEvent: {}
+[0.920142] (-) TimerEvent: {}
+[1.022653] (-) TimerEvent: {}
+[1.126299] (-) TimerEvent: {}
+[1.227533] (-) TimerEvent: {}
+[1.328601] (-) TimerEvent: {}
+[1.430386] (-) TimerEvent: {}
+[1.534835] (-) TimerEvent: {}
+[1.635923] (-) TimerEvent: {}
+[1.739382] (-) TimerEvent: {}
+[1.842861] (-) TimerEvent: {}
+[1.944628] (-) TimerEvent: {}
+[2.051582] (-) TimerEvent: {}
+[2.152626] (-) TimerEvent: {}
+[2.254281] (-) TimerEvent: {}
+[2.358307] (-) TimerEvent: {}
+[2.466453] (-) TimerEvent: {}
+[2.569673] (-) TimerEvent: {}
+[2.670847] (-) TimerEvent: {}
+[2.772027] (-) TimerEvent: {}
+[2.875651] (-) TimerEvent: {}
+[2.998326] (-) TimerEvent: {}
+[3.100072] (-) TimerEvent: {}
+[3.206365] (-) TimerEvent: {}
+[3.310131] (-) TimerEvent: {}
+[3.416914] (-) TimerEvent: {}
+[3.532589] (-) TimerEvent: {}
+[3.646251] (-) TimerEvent: {}
+[3.769933] (-) TimerEvent: {}
+[3.878366] (-) TimerEvent: {}
+[3.980653] (-) TimerEvent: {}
+[4.086285] (-) TimerEvent: {}
+[4.194333] (-) TimerEvent: {}
+[4.295641] (-) TimerEvent: {}
+[4.398172] (-) TimerEvent: {}
+[4.502667] (-) TimerEvent: {}
+[4.610594] (-) TimerEvent: {}
+[4.711839] (-) TimerEvent: {}
+[4.818324] (-) TimerEvent: {}
+[4.926356] (-) TimerEvent: {}
+[5.029247] (-) TimerEvent: {}
+[5.135489] (-) TimerEvent: {}
+[5.251709] (-) TimerEvent: {}
+[5.358442] (-) TimerEvent: {}
+[5.463314] (-) TimerEvent: {}
+[5.567056] (-) TimerEvent: {}
+[5.672341] (-) TimerEvent: {}
+[5.784507] (-) TimerEvent: {}
+[5.890307] (-) TimerEvent: {}
+[5.991387] (-) TimerEvent: {}
+[6.098319] (-) TimerEvent: {}
+[6.199348] (-) TimerEvent: {}
+[6.300353] (-) TimerEvent: {}
+[6.401460] (-) TimerEvent: {}
+[6.510295] (-) TimerEvent: {}
+[6.622302] (-) TimerEvent: {}
+[6.723465] (-) TimerEvent: {}
+[6.826395] (-) TimerEvent: {}
+[6.927915] (-) TimerEvent: {}
+[7.038289] (-) TimerEvent: {}
+[7.146321] (-) TimerEvent: {}
+[7.250012] (-) TimerEvent: {}
+[7.355723] (-) TimerEvent: {}
+[7.462350] (-) TimerEvent: {}
+[7.567505] (-) TimerEvent: {}
+[7.670361] (-) TimerEvent: {}
+[7.771642] (-) TimerEvent: {}
+[7.877684] (-) TimerEvent: {}
+[7.991502] (-) TimerEvent: {}
+[8.113142] (-) TimerEvent: {}
+[8.222372] (-) TimerEvent: {}
+[8.330772] (-) TimerEvent: {}
+[8.438358] (-) TimerEvent: {}
+[8.539425] (-) TimerEvent: {}
+[8.648398] (-) TimerEvent: {}
+[8.757399] (-) TimerEvent: {}
+[8.859201] (-) TimerEvent: {}
+[8.966701] (-) TimerEvent: {}
+[9.077982] (-) TimerEvent: {}
+[9.179635] (-) TimerEvent: {}
+[9.282333] (-) TimerEvent: {}
+[9.385227] (-) TimerEvent: {}
+[9.486525] (-) TimerEvent: {}
+[9.590851] (-) TimerEvent: {}
+[9.699046] (-) TimerEvent: {}
+[9.787338] (brain) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/brain', 'build', '--build-base', '/ExoMy_Sensors/build/brain/build', 'install', '--record', '/ExoMy_Sensors/build/brain/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ExoMy_Sensors/brain', 'env': {'HOSTNAME': 'exomy', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'COLCON_WS': '/ros2_ws', 'PWD': '/ExoMy_Sensors/build/brain', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ExoMy_Sensors/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/brain/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[9.818421] (-) TimerEvent: {}
+[9.926339] (-) TimerEvent: {}
+[9.991147] (data_processor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/data_processor', 'build', '--build-base', '/ExoMy_Sensors/build/data_processor/build', 'install', '--record', '/ExoMy_Sensors/build/data_processor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ExoMy_Sensors/data_processor', 'env': {'HOSTNAME': 'exomy', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'COLCON_WS': '/ros2_ws', 'PWD': '/ExoMy_Sensors/build/data_processor', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ExoMy_Sensors/build/data_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[10.030279] (-) TimerEvent: {}
+[10.131424] (-) TimerEvent: {}
+[10.242294] (-) TimerEvent: {}
+[10.350322] (-) TimerEvent: {}
+[10.451673] (-) TimerEvent: {}
+[10.558266] (-) TimerEvent: {}
+[10.662911] (-) TimerEvent: {}
+[10.703145] (raw_data_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/raw_data_publisher', 'build', '--build-base', '/ExoMy_Sensors/build/raw_data_publisher/build', 'install', '--record', '/ExoMy_Sensors/build/raw_data_publisher/install.log', '--single-version-externally-managed'], 'cwd': '/ExoMy_Sensors/raw_data_publisher', 'env': {'HOSTNAME': 'exomy', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'COLCON_WS': '/ros2_ws', 'PWD': '/ExoMy_Sensors/build/raw_data_publisher', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ExoMy_Sensors/build/raw_data_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/raw_data_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[10.766297] (-) TimerEvent: {}
+[10.870633] (-) TimerEvent: {}
+[10.982324] (-) TimerEvent: {}
+[11.083519] (-) TimerEvent: {}
+[11.186658] (-) TimerEvent: {}
+[11.278422] (brain) StdoutLine: {'line': b'running egg_info\n'}
+[11.280418] (brain) StdoutLine: {'line': b'writing ../build/brain/brain.egg-info/PKG-INFO\n'}
+[11.290358] (-) TimerEvent: {}
+[11.331134] (brain) StdoutLine: {'line': b'writing dependency_links to ../build/brain/brain.egg-info/dependency_links.txt\n'}
+[11.332310] (brain) StdoutLine: {'line': b'writing entry points to ../build/brain/brain.egg-info/entry_points.txt\n'}
+[11.333313] (brain) StdoutLine: {'line': b'writing requirements to ../build/brain/brain.egg-info/requires.txt\n'}
+[11.338583] (brain) StdoutLine: {'line': b'writing top-level names to ../build/brain/brain.egg-info/top_level.txt\n'}
+[11.344519] (brain) StdoutLine: {'line': b"reading manifest file '../build/brain/brain.egg-info/SOURCES.txt'\n"}
+[11.359774] (brain) StdoutLine: {'line': b"writing manifest file '../build/brain/brain.egg-info/SOURCES.txt'\n"}
+[11.363332] (brain) StdoutLine: {'line': b'running build\n'}
+[11.365487] (brain) StdoutLine: {'line': b'running build_py\n'}
+[11.366048] (brain) StdoutLine: {'line': b'running install\n'}
+[11.376203] (brain) StdoutLine: {'line': b'running install_lib\n'}
+[11.377067] (brain) StdoutLine: {'line': b'running install_data\n'}
+[11.377523] (brain) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.394315] (-) TimerEvent: {}
+[11.397939] (brain) StdoutLine: {'line': b"removing '/ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.403467] (brain) StdoutLine: {'line': b'Copying ../build/brain/brain.egg-info to /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain-0.0.0-py3.10.egg-info\n'}
+[11.422241] (brain) StdoutLine: {'line': b'running install_scripts\n'}
+[11.494533] (-) TimerEvent: {}
+[11.540088] (brain) StdoutLine: {'line': b"writing list of installed files to '/ExoMy_Sensors/build/brain/install.log'\n"}
+[11.598265] (-) TimerEvent: {}
+[11.699625] (-) TimerEvent: {}
+[11.756995] (brain) CommandEnded: {'returncode': 0}
+[11.806272] (-) TimerEvent: {}
+[11.908702] (-) TimerEvent: {}
+[11.913909] (brain) JobEnded: {'identifier': 'brain', 'rc': 0}
+[12.008949] (-) TimerEvent: {}
+[12.114269] (-) TimerEvent: {}
+[12.215447] (-) TimerEvent: {}
+[12.275802] (data_processor) StdoutLine: {'line': b'running egg_info\n'}
+[12.280416] (data_processor) StdoutLine: {'line': b'writing ../build/data_processor/data_processor.egg-info/PKG-INFO\n'}
+[12.285270] (data_processor) StdoutLine: {'line': b'writing dependency_links to ../build/data_processor/data_processor.egg-info/dependency_links.txt\n'}
+[12.286817] (data_processor) StdoutLine: {'line': b'writing entry points to ../build/data_processor/data_processor.egg-info/entry_points.txt\n'}
+[12.288808] (data_processor) StdoutLine: {'line': b'writing requirements to ../build/data_processor/data_processor.egg-info/requires.txt\n'}
+[12.290644] (data_processor) StdoutLine: {'line': b'writing top-level names to ../build/data_processor/data_processor.egg-info/top_level.txt\n'}
+[12.310996] (data_processor) StdoutLine: {'line': b"reading manifest file '../build/data_processor/data_processor.egg-info/SOURCES.txt'\n"}
+[12.315675] (-) TimerEvent: {}
+[12.317472] (data_processor) StdoutLine: {'line': b"writing manifest file '../build/data_processor/data_processor.egg-info/SOURCES.txt'\n"}
+[12.320542] (data_processor) StdoutLine: {'line': b'running build\n'}
+[12.321267] (data_processor) StdoutLine: {'line': b'running build_py\n'}
+[12.322087] (data_processor) StdoutLine: {'line': b'running install\n'}
+[12.325424] (data_processor) StdoutLine: {'line': b'running install_lib\n'}
+[12.337110] (data_processor) StdoutLine: {'line': b'running install_data\n'}
+[12.342274] (data_processor) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.370620] (data_processor) StdoutLine: {'line': b"removing '/ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages/data_processor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.373807] (data_processor) StdoutLine: {'line': b'Copying ../build/data_processor/data_processor.egg-info to /ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages/data_processor-0.0.0-py3.10.egg-info\n'}
+[12.380243] (data_processor) StdoutLine: {'line': b'running install_scripts\n'}
+[12.415906] (-) TimerEvent: {}
+[12.517076] (-) TimerEvent: {}
+[12.518340] (data_processor) StdoutLine: {'line': b'Installing imu_data_processor script to /ExoMy_Sensors/install/data_processor/lib/data_processor\n'}
+[12.520245] (data_processor) StdoutLine: {'line': b'Installing tof_data_processor script to /ExoMy_Sensors/install/data_processor/lib/data_processor\n'}
+[12.521176] (data_processor) StdoutLine: {'line': b"writing list of installed files to '/ExoMy_Sensors/build/data_processor/install.log'\n"}
+[12.617455] (-) TimerEvent: {}
+[12.719049] (-) TimerEvent: {}
+[12.742240] (data_processor) CommandEnded: {'returncode': 0}
+[12.809144] (raw_data_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[12.811083] (raw_data_publisher) StdoutLine: {'line': b'writing ../build/raw_data_publisher/raw_data_publisher.egg-info/PKG-INFO\n'}
+[12.812560] (data_processor) JobEnded: {'identifier': 'data_processor', 'rc': 0}
+[12.818569] (raw_data_publisher) StdoutLine: {'line': b'writing dependency_links to ../build/raw_data_publisher/raw_data_publisher.egg-info/dependency_links.txt\n'}
+[12.819387] (-) TimerEvent: {}
+[12.820172] (raw_data_publisher) StdoutLine: {'line': b'writing entry points to ../build/raw_data_publisher/raw_data_publisher.egg-info/entry_points.txt\n'}
+[12.821478] (raw_data_publisher) StdoutLine: {'line': b'writing requirements to ../build/raw_data_publisher/raw_data_publisher.egg-info/requires.txt\n'}
+[12.823192] (raw_data_publisher) StdoutLine: {'line': b'writing top-level names to ../build/raw_data_publisher/raw_data_publisher.egg-info/top_level.txt\n'}
+[12.839992] (raw_data_publisher) StdoutLine: {'line': b"reading manifest file '../build/raw_data_publisher/raw_data_publisher.egg-info/SOURCES.txt'\n"}
+[12.846224] (raw_data_publisher) StdoutLine: {'line': b"writing manifest file '../build/raw_data_publisher/raw_data_publisher.egg-info/SOURCES.txt'\n"}
+[12.852682] (raw_data_publisher) StdoutLine: {'line': b'running build\n'}
+[12.853443] (raw_data_publisher) StdoutLine: {'line': b'running build_py\n'}
+[12.858529] (raw_data_publisher) StdoutLine: {'line': b'running install\n'}
+[12.859362] (raw_data_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[12.867206] (raw_data_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.886711] (raw_data_publisher) StdoutLine: {'line': b"removing '/ExoMy_Sensors/install/raw_data_publisher/lib/python3.10/site-packages/raw_data_publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.888353] (raw_data_publisher) StdoutLine: {'line': b'Copying ../build/raw_data_publisher/raw_data_publisher.egg-info to /ExoMy_Sensors/install/raw_data_publisher/lib/python3.10/site-packages/raw_data_publisher-0.0.0-py3.10.egg-info\n'}
+[12.898489] (raw_data_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[12.919683] (-) TimerEvent: {}
+[13.021679] (raw_data_publisher) StdoutLine: {'line': b'Installing imu_publisher script to /ExoMy_Sensors/install/raw_data_publisher/lib/raw_data_publisher\n'}
+[13.022507] (-) TimerEvent: {}
+[13.023380] (raw_data_publisher) StdoutLine: {'line': b'Installing tof_publisher script to /ExoMy_Sensors/install/raw_data_publisher/lib/raw_data_publisher\n'}
+[13.026156] (raw_data_publisher) StdoutLine: {'line': b"writing list of installed files to '/ExoMy_Sensors/build/raw_data_publisher/install.log'\n"}
+[13.122969] (-) TimerEvent: {}
+[13.224860] (-) TimerEvent: {}
+[13.245357] (raw_data_publisher) CommandEnded: {'returncode': 0}
+[13.294202] (raw_data_publisher) JobEnded: {'identifier': 'raw_data_publisher', 'rc': 0}
+[13.298048] (-) EventReactorShutdown: {}

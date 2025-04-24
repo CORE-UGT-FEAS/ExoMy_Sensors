@@ -1,0 +1,32 @@
+[5.529s] Invoking command in '/ExoMy_Sensors/build/brain': PYTHONPATH=/ExoMy_Sensors/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ExoMy_Sensors/build/brain/build
+[7.544s] running develop
+[8.612s] Removing /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain.egg-link (link to .)
+[8.763s] Invoked command in '/ExoMy_Sensors/build/brain' returned '0': PYTHONPATH=/ExoMy_Sensors/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ExoMy_Sensors/build/brain/build
+[8.773s] Invoking command in '/ExoMy_Sensors/brain': PYTHONPATH=/ExoMy_Sensors/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/brain build --build-base /ExoMy_Sensors/build/brain/build install --record /ExoMy_Sensors/build/brain/install.log --single-version-externally-managed install_data --force
+[9.672s] running egg_info
+[9.676s] writing ../build/brain/brain.egg-info/PKG-INFO
+[9.680s] writing dependency_links to ../build/brain/brain.egg-info/dependency_links.txt
+[9.681s] writing entry points to ../build/brain/brain.egg-info/entry_points.txt
+[9.681s] writing requirements to ../build/brain/brain.egg-info/requires.txt
+[9.682s] writing top-level names to ../build/brain/brain.egg-info/top_level.txt
+[9.707s] reading manifest file '../build/brain/brain.egg-info/SOURCES.txt'
+[9.711s] writing manifest file '../build/brain/brain.egg-info/SOURCES.txt'
+[9.723s] running build
+[9.727s] running build_py
+[9.731s] creating /ExoMy_Sensors/build/brain/build
+[9.732s] creating /ExoMy_Sensors/build/brain/build/lib
+[9.732s] creating /ExoMy_Sensors/build/brain/build/lib/brain
+[9.733s] copying brain/__init__.py -> /ExoMy_Sensors/build/brain/build/lib/brain
+[9.733s] running install
+[9.733s] running install_lib
+[9.734s] creating /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain
+[9.734s] copying /ExoMy_Sensors/build/brain/build/lib/brain/__init__.py -> /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain
+[9.734s] byte-compiling /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain/__init__.py to __init__.cpython-310.pyc
+[9.735s] running install_data
+[9.735s] copying resource/brain -> /ExoMy_Sensors/install/brain/share/ament_index/resource_index/packages
+[9.735s] copying package.xml -> /ExoMy_Sensors/install/brain/share/brain
+[9.735s] running install_egg_info
+[9.770s] Copying ../build/brain/brain.egg-info to /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain-0.0.0-py3.10.egg-info
+[9.783s] running install_scripts
+[10.010s] writing list of installed files to '/ExoMy_Sensors/build/brain/install.log'
+[10.490s] Invoked command in '/ExoMy_Sensors/brain' returned '0': PYTHONPATH=/ExoMy_Sensors/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/brain build --build-base /ExoMy_Sensors/build/brain/build install --record /ExoMy_Sensors/build/brain/install.log --single-version-externally-managed install_data --force

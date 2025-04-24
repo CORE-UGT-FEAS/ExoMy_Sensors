@@ -1,0 +1,28 @@
+running develop
+Removing /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain.egg-link (link to .)
+running egg_info
+writing ../build/brain/brain.egg-info/PKG-INFO
+writing dependency_links to ../build/brain/brain.egg-info/dependency_links.txt
+writing entry points to ../build/brain/brain.egg-info/entry_points.txt
+writing requirements to ../build/brain/brain.egg-info/requires.txt
+writing top-level names to ../build/brain/brain.egg-info/top_level.txt
+reading manifest file '../build/brain/brain.egg-info/SOURCES.txt'
+writing manifest file '../build/brain/brain.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ExoMy_Sensors/build/brain/build
+creating /ExoMy_Sensors/build/brain/build/lib
+creating /ExoMy_Sensors/build/brain/build/lib/brain
+copying brain/__init__.py -> /ExoMy_Sensors/build/brain/build/lib/brain
+running install
+running install_lib
+creating /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain
+copying /ExoMy_Sensors/build/brain/build/lib/brain/__init__.py -> /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain
+byte-compiling /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/brain -> /ExoMy_Sensors/install/brain/share/ament_index/resource_index/packages
+copying package.xml -> /ExoMy_Sensors/install/brain/share/brain
+running install_egg_info
+Copying ../build/brain/brain.egg-info to /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/ExoMy_Sensors/build/brain/install.log'

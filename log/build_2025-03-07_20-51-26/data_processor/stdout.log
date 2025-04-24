@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating data_processor.egg-info
+writing data_processor.egg-info/PKG-INFO
+writing dependency_links to data_processor.egg-info/dependency_links.txt
+writing entry points to data_processor.egg-info/entry_points.txt
+writing requirements to data_processor.egg-info/requires.txt
+writing top-level names to data_processor.egg-info/top_level.txt
+writing manifest file 'data_processor.egg-info/SOURCES.txt'
+reading manifest file 'data_processor.egg-info/SOURCES.txt'
+writing manifest file 'data_processor.egg-info/SOURCES.txt'
+running build_ext
+Creating /ExoMy_Sensors/install/data_processor/lib/python3.10/site-packages/data-processor.egg-link (link to .)
+Installing imu_data_processor script to /ExoMy_Sensors/install/data_processor/lib/data_processor
+Installing tof_data_processor script to /ExoMy_Sensors/install/data_processor/lib/data_processor
+
+Installed /ExoMy_Sensors/build/data_processor
+running symlink_data
+creating /ExoMy_Sensors/install/data_processor/share/ament_index
+creating /ExoMy_Sensors/install/data_processor/share/ament_index/resource_index
+creating /ExoMy_Sensors/install/data_processor/share/ament_index/resource_index/packages
+symbolically linking /ExoMy_Sensors/build/data_processor/resource/data_processor -> /ExoMy_Sensors/install/data_processor/share/ament_index/resource_index/packages
+symbolically linking /ExoMy_Sensors/build/data_processor/package.xml -> /ExoMy_Sensors/install/data_processor/share/data_processor

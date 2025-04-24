@@ -1,0 +1,20 @@
+[5.535s] Invoking command in '/ExoMy_Sensors/brain': PYTHONPATH=/ExoMy_Sensors/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/brain build --build-base /ExoMy_Sensors/build/brain/build install --record /ExoMy_Sensors/build/brain/install.log --single-version-externally-managed install_data
+[6.700s] running egg_info
+[6.707s] writing ../build/brain/brain.egg-info/PKG-INFO
+[6.710s] writing dependency_links to ../build/brain/brain.egg-info/dependency_links.txt
+[6.715s] writing entry points to ../build/brain/brain.egg-info/entry_points.txt
+[6.715s] writing requirements to ../build/brain/brain.egg-info/requires.txt
+[6.716s] writing top-level names to ../build/brain/brain.egg-info/top_level.txt
+[6.730s] reading manifest file '../build/brain/brain.egg-info/SOURCES.txt'
+[6.731s] writing manifest file '../build/brain/brain.egg-info/SOURCES.txt'
+[6.731s] running build
+[6.731s] running build_py
+[6.732s] running install
+[6.742s] running install_lib
+[6.743s] running install_data
+[6.744s] running install_egg_info
+[6.759s] removing '/ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain-0.0.0-py3.10.egg-info' (and everything under it)
+[6.760s] Copying ../build/brain/brain.egg-info to /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain-0.0.0-py3.10.egg-info
+[6.774s] running install_scripts
+[6.949s] writing list of installed files to '/ExoMy_Sensors/build/brain/install.log'
+[7.101s] Invoked command in '/ExoMy_Sensors/brain' returned '0': PYTHONPATH=/ExoMy_Sensors/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/brain build --build-base /ExoMy_Sensors/build/brain/build install --record /ExoMy_Sensors/build/brain/install.log --single-version-externally-managed install_data

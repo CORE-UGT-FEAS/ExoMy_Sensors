@@ -1,0 +1,4 @@
+[console_scripts]
+imu_data_processor = data_processor.scripts.imu_data_processor:main
+tof_data_processor = data_processor.scripts.tof_data_processor:main
+

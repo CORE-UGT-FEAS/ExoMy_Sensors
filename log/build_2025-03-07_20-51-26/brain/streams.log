@@ -1,0 +1,23 @@
+[3.179s] Invoking command in '/ExoMy_Sensors/build/brain': PYTHONPATH=/ExoMy_Sensors/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/brain/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ExoMy_Sensors/build/brain/build --no-deps symlink_data
+[3.972s] running develop
+[4.195s] running egg_info
+[4.195s] creating brain.egg-info
+[4.205s] writing brain.egg-info/PKG-INFO
+[4.206s] writing dependency_links to brain.egg-info/dependency_links.txt
+[4.206s] writing entry points to brain.egg-info/entry_points.txt
+[4.207s] writing requirements to brain.egg-info/requires.txt
+[4.207s] writing top-level names to brain.egg-info/top_level.txt
+[4.207s] writing manifest file 'brain.egg-info/SOURCES.txt'
+[4.209s] reading manifest file 'brain.egg-info/SOURCES.txt'
+[4.210s] writing manifest file 'brain.egg-info/SOURCES.txt'
+[4.242s] running build_ext
+[4.244s] Creating /ExoMy_Sensors/install/brain/lib/python3.10/site-packages/brain.egg-link (link to .)
+[4.246s] 
+[4.247s] Installed /ExoMy_Sensors/build/brain
+[4.248s] running symlink_data
+[4.254s] creating /ExoMy_Sensors/install/brain/share/ament_index
+[4.256s] creating /ExoMy_Sensors/install/brain/share/ament_index/resource_index
+[4.261s] creating /ExoMy_Sensors/install/brain/share/ament_index/resource_index/packages
+[4.263s] symbolically linking /ExoMy_Sensors/build/brain/resource/brain -> /ExoMy_Sensors/install/brain/share/ament_index/resource_index/packages
+[4.269s] symbolically linking /ExoMy_Sensors/build/brain/package.xml -> /ExoMy_Sensors/install/brain/share/brain
+[4.553s] Invoked command in '/ExoMy_Sensors/build/brain' returned '0': PYTHONPATH=/ExoMy_Sensors/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/brain/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ExoMy_Sensors/build/brain/build --no-deps symlink_data

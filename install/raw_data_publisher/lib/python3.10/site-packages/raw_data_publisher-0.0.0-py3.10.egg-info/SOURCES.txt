@@ -1,0 +1,24 @@
+setup.cfg
+setup.py
+../build/raw_data_publisher/raw_data_publisher.egg-info/PKG-INFO
+../build/raw_data_publisher/raw_data_publisher.egg-info/SOURCES.txt
+../build/raw_data_publisher/raw_data_publisher.egg-info/dependency_links.txt
+../build/raw_data_publisher/raw_data_publisher.egg-info/entry_points.txt
+../build/raw_data_publisher/raw_data_publisher.egg-info/requires.txt
+../build/raw_data_publisher/raw_data_publisher.egg-info/top_level.txt
+../build/raw_data_publisher/raw_data_publisher.egg-info/zip-safe
+msg/MyFloatArray.msg
+raw_data_publisher/__init__.py
+raw_data_publisher.egg-info/PKG-INFO
+raw_data_publisher.egg-info/SOURCES.txt
+raw_data_publisher.egg-info/dependency_links.txt
+raw_data_publisher.egg-info/entry_points.txt
+raw_data_publisher.egg-info/requires.txt
+raw_data_publisher.egg-info/top_level.txt
+raw_data_publisher.egg-info/zip-safe
+raw_data_publisher/scripts/__init__.py
+raw_data_publisher/scripts/imu_publisher copy.py
+raw_data_publisher/scripts/tof_publisher.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

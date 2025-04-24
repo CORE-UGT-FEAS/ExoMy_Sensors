@@ -1,0 +1,17 @@
+running develop
+running egg_info
+creating raw_data_publisher.egg-info
+writing raw_data_publisher.egg-info/PKG-INFO
+writing dependency_links to raw_data_publisher.egg-info/dependency_links.txt
+writing entry points to raw_data_publisher.egg-info/entry_points.txt
+writing requirements to raw_data_publisher.egg-info/requires.txt
+writing top-level names to raw_data_publisher.egg-info/top_level.txt
+writing manifest file 'raw_data_publisher.egg-info/SOURCES.txt'
+reading manifest file 'raw_data_publisher.egg-info/SOURCES.txt'
+writing manifest file 'raw_data_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /ExoMy_Sensors/install/raw_data_publisher/lib/python3.10/site-packages/raw-data-publisher.egg-link (link to .)
+Installing imu_publisher script to /ExoMy_Sensors/install/raw_data_publisher/lib/raw_data_publisher
+Installing tof_publisher script to /ExoMy_Sensors/install/raw_data_publisher/lib/raw_data_publisher
+
+Installed /ExoMy_Sensors/build/raw_data_publisher

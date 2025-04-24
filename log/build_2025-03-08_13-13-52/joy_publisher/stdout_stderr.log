@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/joy_publisher/joy_publisher.egg-info
+writing ../build/joy_publisher/joy_publisher.egg-info/PKG-INFO
+writing dependency_links to ../build/joy_publisher/joy_publisher.egg-info/dependency_links.txt
+writing entry points to ../build/joy_publisher/joy_publisher.egg-info/entry_points.txt
+writing requirements to ../build/joy_publisher/joy_publisher.egg-info/requires.txt
+writing top-level names to ../build/joy_publisher/joy_publisher.egg-info/top_level.txt
+writing manifest file '../build/joy_publisher/joy_publisher.egg-info/SOURCES.txt'
+reading manifest file '../build/joy_publisher/joy_publisher.egg-info/SOURCES.txt'
+writing manifest file '../build/joy_publisher/joy_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ExoMy_Sensors/build/joy_publisher/build
+creating /ExoMy_Sensors/build/joy_publisher/build/lib
+creating /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher
+copying joy_publisher/joy_publisher.py -> /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher
+copying joy_publisher/distance_calculator.py -> /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher
+copying joy_publisher/__init__.py -> /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher
+copying joy_publisher/position_calculator.py -> /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher
+running install
+running install_lib
+creating /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher
+copying /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher/joy_publisher.py -> /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher
+copying /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher/distance_calculator.py -> /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher
+copying /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher/__init__.py -> /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher
+copying /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher/position_calculator.py -> /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher
+byte-compiling /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher/joy_publisher.py to joy_publisher.cpython-310.pyc
+byte-compiling /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher/distance_calculator.py to distance_calculator.cpython-310.pyc
+byte-compiling /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher/__init__.py to __init__.cpython-310.pyc
+byte-compiling /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher/position_calculator.py to position_calculator.cpython-310.pyc
+running install_data
+creating /ExoMy_Sensors/install/joy_publisher/share/ament_index
+creating /ExoMy_Sensors/install/joy_publisher/share/ament_index/resource_index
+creating /ExoMy_Sensors/install/joy_publisher/share/ament_index/resource_index/packages
+copying resource/joy_publisher -> /ExoMy_Sensors/install/joy_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /ExoMy_Sensors/install/joy_publisher/share/joy_publisher
+running install_egg_info
+Copying ../build/joy_publisher/joy_publisher.egg-info to /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher-2.0.0-py3.10.egg-info
+running install_scripts
+Installing distance_calculator script to /ExoMy_Sensors/install/joy_publisher/lib/joy_publisher
+Installing joy_publisher script to /ExoMy_Sensors/install/joy_publisher/lib/joy_publisher
+Installing position_calculator script to /ExoMy_Sensors/install/joy_publisher/lib/joy_publisher
+writing list of installed files to '/ExoMy_Sensors/build/joy_publisher/install.log'

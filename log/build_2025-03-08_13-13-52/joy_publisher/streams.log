@@ -1,0 +1,45 @@
+[6.070s] Invoking command in '/ExoMy_Sensors/joy_publisher': PYTHONPATH=/ExoMy_Sensors/build/joy_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/joy_publisher build --build-base /ExoMy_Sensors/build/joy_publisher/build install --record /ExoMy_Sensors/build/joy_publisher/install.log --single-version-externally-managed install_data
+[8.663s] running egg_info
+[8.676s] creating ../build/joy_publisher/joy_publisher.egg-info
+[8.676s] writing ../build/joy_publisher/joy_publisher.egg-info/PKG-INFO
+[8.680s] writing dependency_links to ../build/joy_publisher/joy_publisher.egg-info/dependency_links.txt
+[8.680s] writing entry points to ../build/joy_publisher/joy_publisher.egg-info/entry_points.txt
+[8.680s] writing requirements to ../build/joy_publisher/joy_publisher.egg-info/requires.txt
+[8.681s] writing top-level names to ../build/joy_publisher/joy_publisher.egg-info/top_level.txt
+[8.681s] writing manifest file '../build/joy_publisher/joy_publisher.egg-info/SOURCES.txt'
+[8.692s] reading manifest file '../build/joy_publisher/joy_publisher.egg-info/SOURCES.txt'
+[8.693s] writing manifest file '../build/joy_publisher/joy_publisher.egg-info/SOURCES.txt'
+[8.699s] running build
+[8.699s] running build_py
+[8.704s] creating /ExoMy_Sensors/build/joy_publisher/build
+[8.704s] creating /ExoMy_Sensors/build/joy_publisher/build/lib
+[8.705s] creating /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher
+[8.705s] copying joy_publisher/joy_publisher.py -> /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher
+[8.705s] copying joy_publisher/distance_calculator.py -> /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher
+[8.705s] copying joy_publisher/__init__.py -> /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher
+[8.712s] copying joy_publisher/position_calculator.py -> /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher
+[8.712s] running install
+[8.713s] running install_lib
+[8.739s] creating /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher
+[8.740s] copying /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher/joy_publisher.py -> /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher
+[8.740s] copying /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher/distance_calculator.py -> /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher
+[8.751s] copying /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher/__init__.py -> /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher
+[8.752s] copying /ExoMy_Sensors/build/joy_publisher/build/lib/joy_publisher/position_calculator.py -> /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher
+[8.753s] byte-compiling /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher/joy_publisher.py to joy_publisher.cpython-310.pyc
+[8.768s] byte-compiling /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher/distance_calculator.py to distance_calculator.cpython-310.pyc
+[8.768s] byte-compiling /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher/__init__.py to __init__.cpython-310.pyc
+[8.769s] byte-compiling /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher/position_calculator.py to position_calculator.cpython-310.pyc
+[8.776s] running install_data
+[8.784s] creating /ExoMy_Sensors/install/joy_publisher/share/ament_index
+[8.784s] creating /ExoMy_Sensors/install/joy_publisher/share/ament_index/resource_index
+[8.785s] creating /ExoMy_Sensors/install/joy_publisher/share/ament_index/resource_index/packages
+[8.786s] copying resource/joy_publisher -> /ExoMy_Sensors/install/joy_publisher/share/ament_index/resource_index/packages
+[8.786s] copying package.xml -> /ExoMy_Sensors/install/joy_publisher/share/joy_publisher
+[8.795s] running install_egg_info
+[8.796s] Copying ../build/joy_publisher/joy_publisher.egg-info to /ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages/joy_publisher-2.0.0-py3.10.egg-info
+[8.812s] running install_scripts
+[8.982s] Installing distance_calculator script to /ExoMy_Sensors/install/joy_publisher/lib/joy_publisher
+[8.983s] Installing joy_publisher script to /ExoMy_Sensors/install/joy_publisher/lib/joy_publisher
+[8.985s] Installing position_calculator script to /ExoMy_Sensors/install/joy_publisher/lib/joy_publisher
+[8.986s] writing list of installed files to '/ExoMy_Sensors/build/joy_publisher/install.log'
+[9.139s] Invoked command in '/ExoMy_Sensors/joy_publisher' returned '0': PYTHONPATH=/ExoMy_Sensors/build/joy_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ExoMy_Sensors/install/joy_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/joy_publisher build --build-base /ExoMy_Sensors/build/joy_publisher/build install --record /ExoMy_Sensors/build/joy_publisher/install.log --single-version-externally-managed install_data
